@@ -1,0 +1,5 @@
+BÀI 2: INTERFACE & TYPE (Khuôn đúc Object)
+
+Trong TypeScript, interface (hoặc type) sinh ra để làm nhiệm vụ y hệt như DTO vậy. 
+Nó tạo ra một cái "bản vẽ", ép các biến Object (ngoặc nhọn {}) phải tuân thủ đúng bản vẽ đó, 
+thiếu một thuộc tính hay sai kiểu dữ liệu là nó gào lên ngay.

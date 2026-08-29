@@ -1,0 +1,14 @@
+
+1. Các kiểu dữ liệu cốt lõi (Basic Types)
+
+Trong TypeScript, sếp chỉ cần nhớ 4 kiểu dữ liệu nền tảng này là đủ xài 90% trong React:
++ string: Chuỗi văn bản (Tên, mã sinh viên, email...)
+
++ number: Chấp hết mọi loại số (số nguyên, số thập phân, âm dương gì TS nó gộp chung thành number hết, 
+không chia ra int, double, float như Java đâu).
+
++ boolean: Đúng (true) / Sai (false).
+
++ any: Từ khóa "Phá game". Gắn thằng này vào thì biến của sếp biến lại thành JS thuần 
+(chứa số, chuỗi gì cũng được hết, TS sẽ nhắm mắt làm ngơ). 
+Trừ khi kẹt quá, còn không thì hạn chế tối đa dùng any nha sếp.

@@ -1,0 +1,9 @@
+BÀI 3: GENERICS <T> - Khởi tạo 1 lần, dùng cho mọi kiểu dữ liệu
+Bên Java sếp chắc hay gặp mấy cái như List<String>, 
+List<Truyen> rồi đúng không? Chữ <T> (viết tắt của Type) là một cái "biến" chứa kiểu dữ liệu.
+
+Khi sếp gọi API bằng Axios, cái vỏ bọc bên ngoài (chứa status code 200, message "Thành công") 
+thì lúc nào cũng giống nhau, nhưng cái ruột dữ liệu (data) trả về thì mỗi API một khác 
+(API danh sách truyện thì trả về mảng Truyen, API user thì trả về object User).
+
+Thay vì phải viết 10 cái interface cho 10 cái API, sếp chỉ cần viết 1 cái interface dùng Generics!
